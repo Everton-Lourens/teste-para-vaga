@@ -14,7 +14,7 @@ function getLetterAndCount(phrase) {
         return `O parâmetro phrase com "${phrase}" não é uma string válida.`;
 
     if (phrase.includes('a')) {
-        console.log(`contém a letra "a" em maiúsculo! Quantidade: ${countLetter(phrase, 'a')}`);
+        console.log(`contém a letra "a" em minúsculo! Quantidade: ${countLetter(phrase, 'a')}`);
     }
     if (phrase.includes('A')) {
         console.log(`contém a letra "A" em maiúsculo! Quantidade: ${countLetter(phrase, 'A')}`);
